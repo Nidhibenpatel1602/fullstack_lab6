@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "nidhiaksCluster"
+        },
+        "location": {
+            "value": "canadacentral"
+        },
+        "osDiskSizeGB": {
+            "value": 30
+        },
+        "linuxAdminUsername": {
+            "value": "Nidhiben" 
+        },
+        "dnsPrefix": {
+            "value": "Nidhidns" 
+        },
+        "agentCount": {
+            "value": 1
+        },
+        "agentVMSize": {
+            "value": "standard_d2s_v3"
+        },
+        "sshRSAPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCgrCbfbVt6B/UR0jBhcejvTUk6J0W+EtvlkR52aVQBYhAuxx7NmmfLJyA3VCuZlZAqxJc86UT3LqC1+uXMQ9u6dsFeHTvyL6EKfIlZ5DH+WtLKEPgH1VlZgE2+0dLGTkg7hhOaNYMaCbh2MZ5slNYLOMOi8UYQ5k2y1offlrS0j0pa+6sPqecxD3UqHD3c9eyTW+h4Mrri2b2JZ0ZNgAmsaREF6IIt+wkd2KAO217X/3YhnymZQGJBy9nTzJSFv+3CLzU3ZEg0fpeRd8CaHyqvOVYx5bY7qGa7R74AXHy4wemrHmLjAZgTei1y+QfVl+6Ywr1zbDw1CqGYzDPiSizOUSfyHbFr7HhSTETAK2AdCPSXP+/W6tTK6axEOIEoTXkKAOpEA1PODguCslJ9HzUci/Qrz2hlTPFtcK8WcwzgOssmVvN5QJewsU2+jLsSwpMM5jD49xqQHkKC/ija80/bQGgehQpqgEiOISJB/jlAsHkmPHyabBJUJh5XJAeiI7U= generated-by-azure"
+        }
+    } 
+}
